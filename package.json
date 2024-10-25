@@ -2,13 +2,19 @@
   "name": "playwright_tests",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
   "keywords": [],
-  "author": "",
+  "author": "juls",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
     "@playwright/test": "^1.48.1",
-    "@types/node": "^22.7.9"
+    "@types/node": "^22.7.9",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
   }
 }
